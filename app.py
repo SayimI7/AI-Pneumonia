@@ -29,8 +29,8 @@ def generar_informe(confianza):
     pdf.add_page()
 
     # --- Encabezado con logos ---
-    pdf.image("C:/Users/SAIMJ/Desktop/IA_Pneumonia/pdf/uncp_logo.png", 10, 8, 33)    # Logo UNCP
-    pdf.image("C:/Users/SAIMJ/Desktop/IA_Pneumonia/pdf/fis_uncp_logo.png", 170, 8, 33) # Logo FIS
+    pdf.image("pdf/uncp_logo.png", 10, 8, 33)    # Logo UNCP
+    pdf.image("pdf/fis_uncp_logo.png", 170, 8, 33) # Logo FIS
 
     pdf.set_font("Arial", 'B', 14)
     pdf.set_xy(0, 15)
